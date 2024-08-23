@@ -20,11 +20,12 @@ body {
     .navbar-main {width: 100%; display: flex; justify-content: space-between; margin: auto !important; height: 30px !important; padding: 0px 0px 9px 0px;}
     .marketing-tactic {display: none;}
     .main-body {padding-top: 108px !important;}
-    .deadline-joke {display: block; font-size: 12px;}
 }
 @media (max-width: 780px) {
     .link-label {display: none;}
 }
+
+.deadline-joke {display: block; font-size: 12px;}
 
 header {
     background-color: #ffffff;
@@ -167,9 +168,7 @@ h2 {font-size: 24px;}
 .sub-main-heading {
     margin-top: 0px;
     float: left;
-    overflow-x: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    width: calc(100% - 36px);
     padding-left: 18px;
 }
 
