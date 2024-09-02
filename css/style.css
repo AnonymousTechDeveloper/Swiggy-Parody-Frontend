@@ -14,7 +14,10 @@ body {
     height: 100%;
 }
 
-@media (max-width: 1080px) {
+@media (max-width) {
+    .navbar-main {gap: 9px !important;}
+}
+@media (max-width: 960px) {
     .sub-main-scroller-but {display: none;}
     .navbar-left {width: 100%; display: flex; justify-content: space-between;}
     .navbar-main {width: 100%; display: flex; justify-content: space-between; margin: auto !important; height: 30px !important; padding: 0px 0px 9px 0px; gap: 18px !important;}
@@ -100,7 +103,7 @@ nav {
 .main-logo-cont {width: 34px;}
 .main-logo-link {height: 49px; display: inline-block;}
 
-.navbar-main {display: flex; gap: 54px;}
+.navbar-main {display: flex; gap: 3vw;}
 
 .link-cont {
     font-family: var(--header-font);
@@ -221,7 +224,7 @@ h2 {font-size: 24px;}
 .scrollable-body::-webkit-scrollbar-track-piece:start {margin-left: 450px; background: transparent;}
 .scrollable-body::-webkit-scrollbar-track-piece:end {margin-right: 450px; background: transparent;}
 
-@media (max-width: 936px) {
+@media (max-width: 960px) {
     nav {flex-direction: column; justify-content: space-between; height: 120px;}
     .scrollable-body::-webkit-scrollbar-track-piece:start {margin-left: calc(50vw - 45px); background: transparent;}
     .scrollable-body::-webkit-scrollbar-track-piece:end {margin-right: calc(50vw - 45px); background: transparent;}
